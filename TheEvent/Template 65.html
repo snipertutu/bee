@@ -1,0 +1,561 @@
+<!--AWAL HEADER-->
+<header class="fitur bg-header">
+	<div class="fitur">
+		<div class="konten putih tengah">
+			<div class="lebar70 box animated slideInDown">
+				<h1 class="x-besar tebal">Selamat datang di Aura Scarf</h1>
+				<p class="kecil">Percayakan liburan anda bersama agen travel kami, kami selalu memberikan kenyamanan dan keamananan kepada setiap pelanggan kami</p>
+				<br />
+				<a class="btn2 btn-hijautua zoom-in" href="https://wa.me/628000000000" target="_blank"><i class="bi bi-whatsapp"></i> Hubungi Kami</a>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+			</div>
+		</div>
+	</div>
+</header>
+<style>
+.bg-header{background:linear-gradient(to bottom, rgba(0,0,0,.8),rgba(0,0,0,.7),rgba(0,0,0,.7)),url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5QZC1Bj3y4-Dg-D9_IKXUd1pUnvSSJeE206jCW936yY69eVcj7pwr8WQ6gKtMcjbc5ZmN0lgz3EGTvodow1zlftTjDZ3Yv_IqbX_4UWqN-Ol4n6KvoN0a5XWh5jt5Fh70J-h1tmhjQyIXz7UfAlug2G0512EeF8GR-WCob1KyieJwK7IGicN6p19a_g/s1600/Wisata-Lombok-Populer.jpg.webp") center center no-repeat; background-size:cover;background-attachment:fixed;}
+</style>
+<!--AKHIR HEADER-->
+
+
+
+<!--AWAL TENTANG KAMI -->
+<div class="bg-abuabu box">
+	<div class="konten padding tengah latar-putih melengkung5 top3 wow animated slideInUp">
+		<p class="birutua tebal besar">Selamat Datang di Website</p>
+		<p class="kecil">Kami melayani paket wisata honeymoon, paket wisata group, family atau company gathering, dan kami juga menyediakan jasa rental mobil terbaik. Percayakan liburan anda bersama agen travel kami, kami selalu memberikan kenyamanan dan keamananan kepada setiap pelanggan kami</p>
+ 		<br/>
+		<div class="konten lebar70">
+			<div class="kol3 tengah pad">
+				<p class="wow count orange" data-target="123">0</p>
+				<p class="kecil wow animated zoomIn">Lorem Ipsum</p>
+			</div>
+			<div class="kol3 tengah pad">
+				<p class="wow count orange" data-target="456">0</p>
+				<p class="kecil wow animated zoomIn">Lorem Ipsum</p>
+			</div>
+			<div class="kol3 tengah pad">
+				<p class="wow count orange" data-target="789">0</p>
+				<p class="kecil wow animated zoomIn">Lorem Ipsum</p>
+			</div>
+		</div>
+	</div>
+</div>
+<style>
+.count{font-size:40px}
+@media (max-width:480px) {
+.count{font-size:28px}
+}
+</style>
+<script>
+const counters = document.querySelectorAll(".count");
+const speed = 123;
+counters.forEach((counter) => {
+  const updateCount = () => {
+    const target = parseInt(+counter.getAttribute("data-target"));
+    const count = parseInt(+counter.innerText);
+    const increment = Math.trunc(target / speed);
+    console.log(increment);
+    if (count < target) {
+      counter.innerText = count + increment;
+      setTimeout(updateCount, 1);
+    } else {
+      count.innerText = target;
+    }
+  };
+  updateCount();
+});
+</script>
+<!-- AKHIR TENTANG KAMI -->
+
+
+<!--AWAL BENEFIT-->
+<div class="bg-abuabu">
+	<div class="konten box wow animated slideInLeft">
+		<h2 class="tebal birutua">Mengapa Memilih Kami?</h2> 
+		<div class="owl-carousel owl-benefits">
+			<div class="box latar-putih melengkung5">
+				<i class="fa bi-patch-check icon-bulat-putih latar-orange icon-kecil"></i>
+				<h3 class="normal birutua tebal">Dijamin Aman</h3>
+				<p class="x-kecil">Nikmati perjalanan yang aman dan menyenangkan dengan travel agen yang terdaftar resmi</p>
+			</div>
+			<div class="box latar-putih melengkung5">
+				<i class="fa bi-wallet2 icon-bulat-putih latar-orange icon-kecil"></i>
+				<h3 class="normal birutua tebal">Harga Terjangkau</h3>
+				<p class="x-kecil">Nikamti paket wisata dengan harga yang terjangkau dan dijamin paling murah dari yang lain.</p>
+			</div>
+			<div class="box latar-putih melengkung5">
+				<i class="fa bi-clock icon-bulat-putih latar-orange icon-kecil"></i>
+				<h3 class="normal birutua tebal">Berpengalaman</h3>
+				<p class="x-kecil">Agen Travel kami handal, profesional dan berpengalaman selama bertahun-tahun di bidang ini.</p>
+			</div>
+			<div class="box latar-putih melengkung5">
+				<i class="fa bi-gift icon-bulat-putih latar-orange icon-kecil"></i>
+				<h3 class="normal birutua tebal">Banyak Bonusnya</h3>
+				<p class="x-kecil">Dapatkan banyak bonus yang menarik dan bernfanfaat dengan menyewa agen trevel kami.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script type='text/javascript'>//<![CDATA[
+$(document).ready(function(){
+    $('.owl-benefits').owlCarousel({
+        items:1.2,
+        responsive:{
+            480:{items:2.3},
+            780:{items:3.5}
+        },
+        pagination:false,
+        navigation:false,
+        margin:20,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+    });
+});
+//]]></script>
+<!--AKHIR BENEFIT-->
+
+
+<!-- AWAL TOUR -->
+<div class="bg-abuabu keatas">
+	<div class="konten box wow animated zoomIn">
+		<h2 class="tebal birutua">Paket Tour Wisata</h2>
+		<div class="konten owl-carousel owl-tour">
+			<div class="latar-putih melengkung5">            
+				<img class="melengkung-atas5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5QZC1Bj3y4-Dg-D9_IKXUd1pUnvSSJeE206jCW936yY69eVcj7pwr8WQ6gKtMcjbc5ZmN0lgz3EGTvodow1zlftTjDZ3Yv_IqbX_4UWqN-Ol4n6KvoN0a5XWh5jt5Fh70J-h1tmhjQyIXz7UfAlug2G0512EeF8GR-WCob1KyieJwK7IGicN6p19a_g/s1600/Wisata-Lombok-Populer.jpg.webp">
+				<div class="box">
+					<p class="tebal birutua">Paket Tour Kota Destinasi 1 Hari 1 Malam</p>
+                    <p class="kecil">Mulai <span class="orange"><strong>Rp 1.500.000/orang</strong></span></p>
+                    <p class="x-kecil strong">Destinasi:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+					</ul>
+                    <p class="x-kecil strong">Fasilitas:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+					</ul>					<div class="group">
+						<div class="kol2">
+							<a class="btn2 btn-orange btn-kecil" href="#" target="_blank"><i class="fas fa-chevron-circle-right"></i> Info Detail</a>
+						</div> 
+						<div class="kol2 teks-kanan">
+							<a class="btn2 btn3-orange btn-kecil" href="https://wa.me/62867777777" target="_blank"><i class="bi bi-whatsapp">  </i>Chat Kami</a>
+						</div> 
+					</div>
+				</div>
+			</div>
+                    
+			<div class="latar-putih melengkung5">            
+				<img class="melengkung-atas5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5QZC1Bj3y4-Dg-D9_IKXUd1pUnvSSJeE206jCW936yY69eVcj7pwr8WQ6gKtMcjbc5ZmN0lgz3EGTvodow1zlftTjDZ3Yv_IqbX_4UWqN-Ol4n6KvoN0a5XWh5jt5Fh70J-h1tmhjQyIXz7UfAlug2G0512EeF8GR-WCob1KyieJwK7IGicN6p19a_g/s1600/Wisata-Lombok-Populer.jpg.webp">
+				<div class="box">
+					<p class="tebal birutua">Paket Tour Kota Destinasi 1 Hari 1 Malam</p>
+                    <p class="kecil">Mulai <span class="orange"><strong>Rp 1.500.000/orang</strong></span></p>
+                    <p class="x-kecil strong">Destinasi:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+					</ul>
+                    <p class="x-kecil strong">Fasilitas:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+					</ul>					<div class="group">
+						<div class="kol2">
+							<a class="btn2 btn-orange btn-kecil" href="#" target="_blank"><i class="fas fa-chevron-circle-right"></i> Info Detail</a>
+						</div> 
+						<div class="kol2 teks-kanan">
+							<a class="btn2 btn3-orange btn-kecil" href="https://wa.me/62867777777" target="_blank"><i class="bi bi-whatsapp">  </i>Chat Kami</a>
+						</div> 
+					</div>
+				</div>
+			</div>
+          
+			<div class="latar-putih melengkung5">            
+				<img class="melengkung-atas5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5QZC1Bj3y4-Dg-D9_IKXUd1pUnvSSJeE206jCW936yY69eVcj7pwr8WQ6gKtMcjbc5ZmN0lgz3EGTvodow1zlftTjDZ3Yv_IqbX_4UWqN-Ol4n6KvoN0a5XWh5jt5Fh70J-h1tmhjQyIXz7UfAlug2G0512EeF8GR-WCob1KyieJwK7IGicN6p19a_g/s1600/Wisata-Lombok-Populer.jpg.webp">
+				<div class="box">
+					<p class="tebal birutua">Paket Tour Kota Destinasi 1 Hari 1 Malam</p>
+                    <p class="kecil">Mulai <span class="orange"><strong>Rp 1.500.000/orang</strong></span></p>
+                    <p class="x-kecil strong">Destinasi:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+					</ul>
+                    <p class="x-kecil strong">Fasilitas:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+					</ul>					<div class="group">
+						<div class="kol2">
+							<a class="btn2 btn-orange btn-kecil" href="#" target="_blank"><i class="fas fa-chevron-circle-right"></i> Info Detail</a>
+						</div> 
+						<div class="kol2 teks-kanan">
+							<a class="btn2 btn3-orange btn-kecil" href="https://wa.me/62867777777" target="_blank"><i class="bi bi-whatsapp">  </i>Chat Kami</a>
+						</div> 
+					</div>
+				</div>
+			</div>
+          
+		</div>
+	</div>
+</div>
+<script type='text/javascript'>//<![CDATA[
+$(document).ready(function(){
+    $('.owl-tour').owlCarousel({
+        items:1.2,
+        responsive:{
+            480:{items:2.3},
+            780:{items:3.5}
+        },
+        pagination:false,
+        navigation:false,
+        margin:20,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+    });
+});
+//]]></script>
+<!-- AKHIR TOUR -->
+
+<!-- AWAL BULAN MADU -->
+<div class="bg-abuabu keatas">
+	<div class="konten box wow animated zoomIn">
+		<h2 class="tebal birutua">Paket Bulan Madu</h2>
+		<div class="konten owl-carousel owl-honeymoon">
+			<div class="latar-putih melengkung5">            
+				<img class="melengkung-atas5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5QZC1Bj3y4-Dg-D9_IKXUd1pUnvSSJeE206jCW936yY69eVcj7pwr8WQ6gKtMcjbc5ZmN0lgz3EGTvodow1zlftTjDZ3Yv_IqbX_4UWqN-Ol4n6KvoN0a5XWh5jt5Fh70J-h1tmhjQyIXz7UfAlug2G0512EeF8GR-WCob1KyieJwK7IGicN6p19a_g/s1600/Wisata-Lombok-Populer.jpg.webp">
+				<div class="box">
+					<p class="tebal birutua">Paket Bulan Madu Kota Destinasi 1 Hari 1 Malam</p>
+                    <p class="kecil">Mulai <span class="orange"><strong>Rp 1.500.000/orang</strong></span></p>
+                    <p class="x-kecil strong">Destinasi:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+					</ul>
+                    <p class="x-kecil strong">Fasilitas:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+					</ul>					<div class="group">
+						<div class="kol2">
+							<a class="btn2 btn-orange btn-kecil" href="#" target="_blank"><i class="fas fa-chevron-circle-right"></i> Info Detail</a>
+						</div> 
+						<div class="kol2 teks-kanan">
+							<a class="btn2 btn3-orange btn-kecil" href="https://wa.me/62867777777" target="_blank"><i class="bi bi-whatsapp">  </i>Chat Kami</a>
+						</div> 
+					</div>
+				</div>
+			</div>
+                    
+			<div class="latar-putih melengkung5">            
+				<img class="melengkung-atas5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5QZC1Bj3y4-Dg-D9_IKXUd1pUnvSSJeE206jCW936yY69eVcj7pwr8WQ6gKtMcjbc5ZmN0lgz3EGTvodow1zlftTjDZ3Yv_IqbX_4UWqN-Ol4n6KvoN0a5XWh5jt5Fh70J-h1tmhjQyIXz7UfAlug2G0512EeF8GR-WCob1KyieJwK7IGicN6p19a_g/s1600/Wisata-Lombok-Populer.jpg.webp">
+				<div class="box">
+					<p class="tebal birutua">Paket Bulan Madu Kota Destinasi 1 Hari 1 Malam</p>
+                    <p class="kecil">Mulai <span class="orange"><strong>Rp 1.500.000/orang</strong></span></p>
+                    <p class="x-kecil strong">Destinasi:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+					</ul>
+                    <p class="x-kecil strong">Fasilitas:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+					</ul>					<div class="group">
+						<div class="kol2">
+							<a class="btn2 btn-orange btn-kecil" href="#" target="_blank"><i class="fas fa-chevron-circle-right"></i> Info Detail</a>
+						</div> 
+						<div class="kol2 teks-kanan">
+							<a class="btn2 btn3-orange btn-kecil" href="https://wa.me/62867777777" target="_blank"><i class="bi bi-whatsapp">  </i>Chat Kami</a>
+						</div> 
+					</div>
+				</div>
+			</div>
+          
+			<div class="latar-putih melengkung5">            
+				<img class="melengkung-atas5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5QZC1Bj3y4-Dg-D9_IKXUd1pUnvSSJeE206jCW936yY69eVcj7pwr8WQ6gKtMcjbc5ZmN0lgz3EGTvodow1zlftTjDZ3Yv_IqbX_4UWqN-Ol4n6KvoN0a5XWh5jt5Fh70J-h1tmhjQyIXz7UfAlug2G0512EeF8GR-WCob1KyieJwK7IGicN6p19a_g/s1600/Wisata-Lombok-Populer.jpg.webp">
+				<div class="box">
+					<p class="tebal birutua">Paket Bulan Madu Kota Destinasi 1 Hari 1 Malam</p>
+                    <p class="kecil">Mulai <span class="orange"><strong>Rp 1.500.000/orang</strong></span></p>
+                    <p class="x-kecil strong">Destinasi:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Kota</li>
+					</ul>
+                    <p class="x-kecil strong">Fasilitas:</p>
+					<ul class="fa-ul x-kecil" style="margin-left:30px">
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+                      <li><i class="fa-li bi bi-check-circle-fill hijautua"></i>Nama Fasilitas</li>
+					</ul>					<div class="group">
+						<div class="kol2">
+							<a class="btn2 btn-orange btn-kecil" href="#" target="_blank"><i class="fas fa-chevron-circle-right"></i> Info Detail</a>
+						</div> 
+						<div class="kol2 teks-kanan">
+							<a class="btn2 btn3-orange btn-kecil" href="https://wa.me/62867777777" target="_blank"><i class="bi bi-whatsapp">  </i>Chat Kami</a>
+						</div> 
+					</div>
+				</div>
+			</div>
+			
+		</div> 
+	</div>
+</div>
+<script type='text/javascript'>//<![CDATA[
+$(document).ready(function(){
+    $('.owl-honeymoon').owlCarousel({
+        items:1.2,
+        responsive:{
+            480:{items:2.3},
+            780:{items:3.5}
+        },
+        pagination:false,
+        navigation:false,
+        margin:20,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+    });
+});
+//]]></script>
+<!-- AKHIR BULAN MADU -->
+
+<!-- RENTAL MOBIL -->
+<div class="bg-abuabu keatas">
+	<div class="konten box wow animated zoomIn">
+		<h2 class="birutua tebal">Layanan Sewa Mobil</h2>
+		<div class="konten owl-carousel owl-sewamobil">
+			<div class="latar-putih melengkung5">           
+				<img class="melengkung-atas5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgHQuMSWqeBC6FUfHvym79faAjIKAIy3a3zHv2dUNJrdwDkfuH2Q66YLyVbIL7vPV7VqIigZ6VrcBeFBkksyI8wPGzw5m61Cuth-a1MU9WIWlQ88-KEUMPQBKouKN_Q75tbPYuMAkyoJ1hhp47PKpgnQ713FfBoWe1hnBbU4gVVsbo-4m3l-Y8MZ2Suw/s715/c7f35b72-6e20-46ec-bab4-e61b2de09619.jpeg">
+				<div class="box">
+					<p class="tebal birutua">Toyota Avanza</p>
+					<p class="line4 x-kecil bg-abuabu pad"><b>Rp 500.000</b> ( 10 jam )</p>
+					<p class="line4 x-kecil pad"><b>Rp 550.000</b> ( Full day )</p>
+					<p class="line4 x-kecil bg-abuabu pad">Termasuk : Supir + BBM</p>
+					<p class="line4 x-kecil pad">Fasilitas : DVD + AC + Air mineral</p>
+					<p class="line4 x-kecil bg-abuabu pad">Kapasitas : max 7 orang</p>
+                  
+					<div class="tengah">
+						<a class="btn2 btn3-orange btn-kecil" href="https://wa.me/62867777777" target="_blank"><i class="bi bi-whatsapp"></i> Hubungi Kami</a>
+					</div>
+				</div>
+			</div>
+         
+			<div class="latar-putih melengkung5">           
+				<img class="melengkung-atas5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgHQuMSWqeBC6FUfHvym79faAjIKAIy3a3zHv2dUNJrdwDkfuH2Q66YLyVbIL7vPV7VqIigZ6VrcBeFBkksyI8wPGzw5m61Cuth-a1MU9WIWlQ88-KEUMPQBKouKN_Q75tbPYuMAkyoJ1hhp47PKpgnQ713FfBoWe1hnBbU4gVVsbo-4m3l-Y8MZ2Suw/s715/c7f35b72-6e20-46ec-bab4-e61b2de09619.jpeg">
+				<div class="box">
+					<p class="tebal birutua">Toyota Avanza</p>
+					<p class="line4 x-kecil bg-abuabu pad"><b>Rp 500.000</b> ( 10 jam )</p>
+					<p class="line4 x-kecil pad"><b>Rp 550.000</b> ( Full day )</p>
+					<p class="line4 x-kecil bg-abuabu pad">Termasuk : Supir + BBM</p>
+					<p class="line4 x-kecil pad">Fasilitas : DVD + AC + Air mineral</p>
+					<p class="line4 x-kecil bg-abuabu pad">Kapasitas : max 7 orang</p>
+                  
+					<div class="tengah">
+						<a class="btn2 btn3-orange btn-kecil" href="https://wa.me/62867777777" target="_blank"><i class="bi bi-whatsapp"></i> Hubungi Kami</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="latar-putih melengkung5">           
+				<img class="melengkung-atas5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgHQuMSWqeBC6FUfHvym79faAjIKAIy3a3zHv2dUNJrdwDkfuH2Q66YLyVbIL7vPV7VqIigZ6VrcBeFBkksyI8wPGzw5m61Cuth-a1MU9WIWlQ88-KEUMPQBKouKN_Q75tbPYuMAkyoJ1hhp47PKpgnQ713FfBoWe1hnBbU4gVVsbo-4m3l-Y8MZ2Suw/s715/c7f35b72-6e20-46ec-bab4-e61b2de09619.jpeg">
+				<div class="box">
+					<p class="tebal birutua">Toyota Avanza</p>
+					<p class="line4 x-kecil bg-abuabu pad"><b>Rp 500.000</b> ( 10 jam )</p>
+					<p class="line4 x-kecil pad"><b>Rp 550.000</b> ( Full day )</p>
+					<p class="line4 x-kecil bg-abuabu pad">Termasuk : Supir + BBM</p>
+					<p class="line4 x-kecil pad">Fasilitas : DVD + AC + Air mineral</p>
+					<p class="line4 x-kecil bg-abuabu pad">Kapasitas : max 7 orang</p>
+                  
+					<div class="tengah">
+						<a class="btn2 btn3-orange btn-kecil" href="https://wa.me/62867777777" target="_blank"><i class="bi bi-whatsapp"></i> Hubungi Kami</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<br/>
+</div>
+<script type='text/javascript'>//<![CDATA[
+$(document).ready(function(){
+    $('.owl-sewamobil').owlCarousel({
+        items:1.2,
+        responsive:{
+            480:{items:2.3},
+            780:{items:3.5}
+        },
+        pagination:false,
+        navigation:false,
+        margin:20,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+    });
+});
+//]]></script>
+<!-- AKHIR  MOBIL -->
+
+
+
+<!--AWAL GALERI-->
+<div class="latar-putih galeri keatas" id="galeri">
+  	<div class="konten box wow animated fadeInDown">
+		<h2 class="tebal birutua">Galeri Kami</h2>
+		<div class="grid">
+			<img class="kol-2" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi68l-IuhfIxwgrZhxUPfeuJ-4AR0gmtPNlUeJlsTIrM4cr-ixUF9Zdc5uvLQHS6E2zekCQX111DU_5WXDrtVmBq0ApVIE7B20Uxy_tsxBdjOjoh-SJ88BPJrm4ByabubYpzYgrKQKY8mkqgG-v5ZaFjMbNp77pYc7U7IMIXn8Z1r2NqkzOfQh6V0jW6A/s1600/lombok.jpg" />
+			<img class="kol-2" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi68l-IuhfIxwgrZhxUPfeuJ-4AR0gmtPNlUeJlsTIrM4cr-ixUF9Zdc5uvLQHS6E2zekCQX111DU_5WXDrtVmBq0ApVIE7B20Uxy_tsxBdjOjoh-SJ88BPJrm4ByabubYpzYgrKQKY8mkqgG-v5ZaFjMbNp77pYc7U7IMIXn8Z1r2NqkzOfQh6V0jW6A/s1600/lombok.jpg" />
+			<img class="kol-3" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi68l-IuhfIxwgrZhxUPfeuJ-4AR0gmtPNlUeJlsTIrM4cr-ixUF9Zdc5uvLQHS6E2zekCQX111DU_5WXDrtVmBq0ApVIE7B20Uxy_tsxBdjOjoh-SJ88BPJrm4ByabubYpzYgrKQKY8mkqgG-v5ZaFjMbNp77pYc7U7IMIXn8Z1r2NqkzOfQh6V0jW6A/s1600/lombok.jpg" />
+			<img class="kol-3" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi68l-IuhfIxwgrZhxUPfeuJ-4AR0gmtPNlUeJlsTIrM4cr-ixUF9Zdc5uvLQHS6E2zekCQX111DU_5WXDrtVmBq0ApVIE7B20Uxy_tsxBdjOjoh-SJ88BPJrm4ByabubYpzYgrKQKY8mkqgG-v5ZaFjMbNp77pYc7U7IMIXn8Z1r2NqkzOfQh6V0jW6A/s1600/lombok.jpg" />
+			<img class="kol-3" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi68l-IuhfIxwgrZhxUPfeuJ-4AR0gmtPNlUeJlsTIrM4cr-ixUF9Zdc5uvLQHS6E2zekCQX111DU_5WXDrtVmBq0ApVIE7B20Uxy_tsxBdjOjoh-SJ88BPJrm4ByabubYpzYgrKQKY8mkqgG-v5ZaFjMbNp77pYc7U7IMIXn8Z1r2NqkzOfQh6V0jW6A/s1600/lombok.jpg" />
+		</div>
+      	<a class="btn2 btn3-orange btn-kecil kanan" href="#" target="_blank"><i class="fas fa-chevron-circle-right"></i> Selengkapnya</a>
+	</div>
+</div>
+<style>
+  .galeri img.kol-3{margin:10px; border-radius:20px;width:calc(100% / 3 - 20px)}
+  .galeri img.kol-2{margin:10px; border-radius:20px;width:calc(100% / 2 - 20px)}
+@media only screen and (max-width: 480px){
+  .galeri img.kol-3,.galeri img.kol-2{margin:10px 0; width:100%}
+  }
+</style>
+<!--AKHIR GALERI-->
+
+<!--AWAL TESTIMONI-->
+<div class="latar-putih">
+  	<div class="konten box wow animated fadeInDown">
+		<h2 class="birutua tebal">Simak Ulasan Mitra Kami</h2>
+		<div class="wow animated zoomIn">
+			<div class="owl-carousel owl-theme owl-testimoni">
+              
+				<div class="item ">
+					<div class="bg-abuabu melengkung box">
+						<div class="quote-kecil">
+							<p class="x-kecil miring">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an </p> 
+							<p class="x-kecil">
+								<span class="kecil hitampekat"><b>Nama Client</b></span><br/>
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+							</p>
+						</div>
+					</div>
+				</div>
+              
+				<div class="item ">
+					<div class="bg-abuabu melengkung box">
+						<div class="quote-kecil">
+							<p class="x-kecil miring">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an </p> 
+							<p class="x-kecil">
+								<span class="kecil hitampekat"><b>Nama Client</b></span><br/>
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+							</p>
+						</div>
+					</div>
+				</div>
+              
+				<div class="item ">
+					<div class="bg-abuabu melengkung box">
+						<div class="quote-kecil">
+							<p class="x-kecil miring">Lorem Ipsum adalah contoh teks atau dummy dalam industri percetakan dan penataan huruf atau typesetting. Lorem Ipsum telah menjadi standar contoh teks sejak tahun 1500an </p> 
+							<p class="x-kecil">
+								<span class="kecil hitampekat"><b>Nama Client</b></span><br/>
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+								<i class="bi bi-star-fill orange"></i> 
+							</p>
+						</div>
+					</div>
+				</div>
+              
+			</div>
+		</div>
+	</div>
+</div>
+<script type='text/javascript'>//<![CDATA[
+$(document).ready(function(){
+    $('.owl-testimoni').owlCarousel({
+        items:1,
+        responsive:{
+            480:{items:2},
+            780:{items:2}
+        },
+        pagination:false,
+        navigation:false,
+        margin:20,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+    });
+});
+//]]></script>
+<!--AKHIR TESTIMONI-->
+
+
+<!-- AWAL FOOTER -->
+<div class="fitur latar-biru">
+	<div class="konten kecil">
+		<div class="kol-13 box">
+			<p><img  alt="logo" width="200" src="https://1.bp.blogspot.com/--KdXEY6UfLw/XBsauiP1LaI/AAAAAAAAB4w/_D-q8kBZwpQ3VKrQtk-Alj4V8UqUlTxzwCLcBGAs/s1600/logo.png" /></p>
+			<p>Kami hadir untuk membuat perjalanan wisata anda menjadi menyenangkan dan berkesan dengan memprioritaskan kenyamanan dan keamanan customer kami</p>
+		</div>
+		<div class="kol-13 box">
+			<p class="sedang tebal">Layanan kami:</p>
+    		<ul class="fa-ul">
+				<li class="sorot-kekanan"><i class="fa-li bi bi-caret-right-fill"></i><a class="kecil putih sorot-kuning" href="#">Paket Tour</a></li>
+				<li class="sorot-kekanan"><i class="fa-li bi bi-caret-right-fill"></i><a class="kecil putih sorot-kuning" href="#">Paket Bulan madu</a></li>
+        		<li class="sorot-kekanan"><i class="fa-li bi bi-caret-right-fill"></i><a class="kecil putih sorot-kuning" href="#">Paket Non Hotel</a></li>
+				<li class="sorot-kekanan"><i class="fa-li bi bi-caret-right-fill"></i><a class="kecil putih sorot-kuning" href="#">Rental Mobil</a></li>
+			</ul>
+		</div>
+		<div class="kol-13 box">
+			<p class="sedang tebal">Kantor Kami:</p>
+			<ul class="fa-ul">
+				<li><i class="fa-li bi bi-geo-alt-fill"></i> Jl. Raya Nama Kota No. 8 Nam Jalan, Nama Provinsi – Indonesia</li>
+				<li><i class="fa-li bi bi-envelope-fill"></i> email@gmail.com</li>
+				<li><i class="fa-li bi bi-telephone-fill"></i> 085000000000</li>
+			</ul>
+			<a href="#"><i class="fa bi-facebook icon-bulat-biru latar-putih icon-btn sorot-keatas"></i></a>
+			<a href="#"><i class="fa bi-instagram icon-bulat-biru latar-putih icon-btn sorot-keatas"></i></a>
+			<a href="#"><i class="fa bi-youtube icon-bulat-biru latar-putih icon-btn sorot-keatas"></i></a>
+			<a href="#"><i class="fa bi-tiktok icon-bulat-biru latar-putih icon-btn sorot-keatas"></i></a>
+		</div>
+	</div>
+</div>
+<!-- AKHIR FOOTER -->
